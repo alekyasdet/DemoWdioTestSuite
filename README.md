@@ -15,7 +15,6 @@ using WebdriverIO + Cucumber framework in Typescript and integrate the repo CI/C
 - download the `allure-results` -> extract the file
 - open the `index.html` file to view the report
 - by default workflow would run on chrome
-- to change to firefox select the option while running the workflow
 
 ## Setup:
 
@@ -40,8 +39,8 @@ This setup is done using 'IntelliJ' IDE
 2. add all the configurations required in `wdio.cf.ts`
 3. add all dependencies in the `package.json` file
 4. run "`npm install`" to update the dependent packages
-5. create the folder structure as per the framework  
-   ![img_1.png](img_1.png)![img.png](img.png)
+5. create the folder structure as per the framework
+6. ![img_2.png](img_2.png)![img.png](img.png)
 
 ## Framework in detail
 
