@@ -3,7 +3,7 @@
 This repo is to demo the automation of few features for Sauce Demo App("https://www.saucedemo.com/")
 using WebdriverIO + Cucumber framework in Typescript and integrate the repo CI/CD pipeline using GitHub Actions.
 
-![repo status badge ref](https://github.com/alekyasdet/sauceDemoApp-Tests/actions/workflows/testRun.yml/badge.svg)
+[![SauseDemoApp Test Run](https://github.com/alekyasdet/DemoWdioTestSuite/actions/workflows/regressionTest.yml/badge.svg)](https://github.com/alekyasdet/DemoWdioTestSuite/actions/workflows/regressionTest.yml)
 
 ## Quick Start
 
