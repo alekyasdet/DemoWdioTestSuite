@@ -1,0 +1,4 @@
+{
+  "success-message": "//h2[@class='complete-header']",
+  "back-to-home": "//button[@id='back-to-products']"
+}

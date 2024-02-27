@@ -1,0 +1,4 @@
+{
+  "cancel-button": "//button[@id='cancel']",
+  "continue-button": "//button[@id='finish']"
+}

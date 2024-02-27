@@ -1,0 +1,38 @@
+{
+  "name": "sauceDemoApp-Tests",
+  "author": "AlekyaManepalli",
+  "version": "0.1.0",
+  "description": "SauceDemoApp automation using webdriveIO and cucumber using Typescript",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts",
+    "wdio:invalidLogin": "wdio run ./wdio.conf.ts --cucumberOpts.tags='@InvalidLogin'",
+    "wdio:purchase": "wdio run ./wdio.conf.ts --cucumberOpts.tags='@purchase'",
+    "wdio:chrome": "wdio run ./wdio.conf.ts --cucumberOpts.tags='@regression'",
+    "wdio:gecko": "wdio run ./wdio.Geckoconf.ts --cucumberOpts.tags='@regression'",
+    "wdio:regression": "wdio run ./wdio.conf.ts --cucumberOpts.tags='@regression'"
+  },
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.2.1",
+    "@types/fs-extra": "^11.0.4",
+    "@wdio/allure-reporter": "^8.32.2",
+    "@wdio/cli": "^8.32.3",
+    "@wdio/cucumber-framework": "^8.32.3",
+    "@wdio/local-runner": "^8.32.3",
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "@wdio/spec-reporter": "^8.32.2",
+    "@wdio/types": "^8.32.2",
+    "chromedriver": "^122.0.3",
+    "faker": "^5.5.3",
+    "fs-extra": "^11.2.0",
+    "geckodriver": "^4.3.3",
+    "multiple-cucumber-html-reporter": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-cucumberjs-json-reporter": "^5.2.1",
+    "wdio-geckodriver-service": "^5.0.2",
+    "wdio-safaridriver-service": "^2.1.1",
+    "wdio-selenium-standalone-service": "^0.0.12",
+    "wdio-wait-for": "^3.0.11"
+  }
+}

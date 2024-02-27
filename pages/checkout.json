@@ -1,0 +1,4 @@
+{
+  "checkoutUrl": "https://www.saucedemo.com/cart.html",
+  "checkout-button": "//button[@id='checkout']"
+}

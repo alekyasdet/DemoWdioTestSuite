@@ -1,0 +1,6 @@
+{
+  "add-to-cart": "//*[@id='add-to-cart-sauce-labs-backpack']",
+  "shopping-cart-link": "//a[@class='shopping_cart_link']",
+  "menu-button": "//button[@id='react-burger-menu-btn']",
+  "logout-link": "//a[@id='logout_sidebar_link']"
+}

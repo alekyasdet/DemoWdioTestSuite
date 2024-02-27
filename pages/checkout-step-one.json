@@ -1,0 +1,7 @@
+{
+  "first-name": "//input[@id='first-name']",
+  "last-name": "//input[@id='last-name']",
+  "postal-code": "//input[@id='postal-code']",
+  "cancel-button": "//button[@id='cancel']",
+  "continue-submit": "//input[@id='continue']"
+}
