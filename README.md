@@ -47,3 +47,10 @@ This setup is done using 'IntelliJ' IDE
 - `features` contains all the feature files
 - `pages` contains all the elements xpath segregated along the pages
 - `src` contains the steps, support files (actions, checks, libraries)
+
+  ##Additional Information:
+  Allure report generating and extracting in local:
+  npm install -g allure-commandline
+  npx allure generate --single-file --clean allure-results
+  OR
+  npm allure serve allure-results  (to be in the directory allure results are present)
