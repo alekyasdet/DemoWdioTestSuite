@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '21'
 
       - name: Install dependencies
         run: |
@@ -28,7 +28,7 @@ jobs:
           npm install -g allure-commandline
 
       - name: Run tests in Chrome
-        run: npm run wdio:purchase
+        run: npm run wdio:regression
 
       - name: Generate Allure report
         run: npx allure generate --single-file --clean allure-results
